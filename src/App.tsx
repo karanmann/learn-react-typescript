@@ -1,9 +1,11 @@
 import './App.css';
+import { Counter } from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <p>Learn TypeScript</p>
+      <p>Learn TypeScript - useReducer( )</p>
+      <Counter />
     </div>
   );
 }
